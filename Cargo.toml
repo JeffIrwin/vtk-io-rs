@@ -1,0 +1,16 @@
+[package]
+name = "vtk-io-rs"
+version = "0.1.0"
+
+authors = ["https://github.com/JeffIrwin"]
+license = "BSD-3-Clause"
+
+edition = "2018"  # rust edition
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ansi_term = "0.12"
+clap = "~2.27.0"
+quick-xml = "0.22.0"
+

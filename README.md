@@ -1,7 +1,9 @@
 
+![](https://github.com/JeffIrwin/vtk-io-rs/workflows/CI/badge.svg)
+
 # vtk-io-rs
 
-VTK file input/output in rust
+*VTK file input/output in rust*
 
 This is a toy for me to learn rust.  It is not even close to feature complete.  If you're looking for a VTK IO library in rust, try [vtkio](https://github.com/elrnv/vtkio).
 
@@ -17,8 +19,8 @@ This is a toy for me to learn rust.  It is not even close to feature complete.  
 
 - Error handling:
   - Probably should return Result instead of panic! or expect()
-  - Remove all unwrap()'s (done already?)
-- ascii xml
+  - Remove all unwrap()'s
+- ASCII XML load
 - XML parsing
   - Point data
     - See pdata.. file
@@ -27,8 +29,8 @@ This is a toy for me to learn rust.  It is not even close to feature complete.  
   - Cell data
   - Other types?  e.g. structured grid
     - Only unstructured grid implemented for now
-- appended (raw binary) xml
-- legacy ascii
+- appended (raw binary) XML IO
+- legacy ASCII
 - legacy binary
 - XML compression.  At least parse and throw error
 - VTK file export (legacy and XML, all options above)
